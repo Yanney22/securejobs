@@ -1,0 +1,1 @@
+ SELECT distinct companies.company_id as 'company_ Id',companies.company_name,attributions.campaign as 'Last_click_attribution',attributions.clicked_at as'last_click_at' FROM companies  left join attributions on companies.company_id= attributions.company_id;
